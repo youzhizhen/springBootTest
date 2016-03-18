@@ -22,8 +22,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/domain"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/webapi"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/persistenting"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/domain"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

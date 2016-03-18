@@ -1,10 +1,9 @@
 package com.liying.domain;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.liying.persistenting.SpringDataJPARepository;
-
-@Repository
-public interface CityRepository extends SpringDataJPARepository<City, Long> {
+public interface CityRepository extends JpaRepository<City, Long> {
+	
+	City findByName(String name);
 
 }
